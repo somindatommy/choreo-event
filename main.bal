@@ -17,7 +17,7 @@ service asgardeo:LoginService on webhookListener {
       log:printInfo(event.toJsonString());
     }
 
-    remote function onUpdateUserCredentials(asgardeo:GenericEvent event ) returns error? {
+    remote function onUpdateUserCredentials(asgardeo:UpdateUserCredentialsEvent event ) returns error? {
       log:printInfo(event.toJsonString());
     }
 }
