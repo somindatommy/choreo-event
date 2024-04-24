@@ -1,5 +1,5 @@
 [package]
-org = "srilanka1"
+org = "demosubscription"
 name = "events"
 version = "0.1.0"
 distribution = "2201.8.0"
